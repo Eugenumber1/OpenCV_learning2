@@ -2,7 +2,7 @@ import cv2 as cv
 
 #img = cv.imread('/Users/zhenyabudnyk/PycharmProjects/OpenCV_learning2/images/322868_1100-800x825.jpg') #returns an image as a matrix of pixels
 #cv.imshow('Cat', img) #displays an image in a new window, first parameter is a name of the window and the second is a a matrix
-cv.waitKey(0) #keyboard binding function, waits for some mili0seconds until image is shown
+#cv.waitKey(0) #keyboard binding function, waits for some mili0seconds until image is shown
 #large images might go off screen
 
 video = cv.VideoCapture('/Users/zhenyabudnyk/PycharmProjects/OpenCV_learning2/videos/dogs.mp4') #to read the video
